@@ -1,0 +1,20 @@
+.ticket{
+border: 1px solid black;
+}
+/* Lottery.css */
+.crackers {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.cracker-burst {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('crackers.avif') no-repeat center center;
+    background-size: contain;
+    animation: burst 1s ease-out forwards;
+}
+
